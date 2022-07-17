@@ -39,6 +39,7 @@ export const Footer = () => {
 						<a>Jason</a>
 					</Link>
 					{". Written in Romanian style."}
+					<Link href="https://github.com/jamuupolyy/personal-website/blob/main/LICENSE"> MIT License</Link>
 					{" "}
 				</small>
 			</div>
