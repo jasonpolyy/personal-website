@@ -26,7 +26,7 @@ export const navigation = {
 }
 export const intro = {
 	title: "Hi I'm Jason \u{1F44D}",
-	description: ["I write spaghetti code \u{1F35C} and work with numbers all day \u{1F522}"],
+	description: ["I write \u{1F35C} code and add numbers \u{1F522}"],
 	image: profile.src,
 	buttons: [
 		{
@@ -36,7 +36,7 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://www.overleaf.com/project/60a65f77329e907913697215",
+			link: "https://www.overleaf.com/read/cxdnfncypqmk",
 			isPrimary: false,
 		},
 	],
@@ -45,14 +45,14 @@ export const intro = {
 export const about = {
 	title: "About",
 	description: [
-		"I'm an experienced analyst now currently a few years deep into the energy industry in Australia. \
-		I am experienced in energy asset modelling and optimisation (battery, thermal and gas), mass market load forecasting, statistical model building/evaluation/productioning, machine learning techniques and high level market analysis. \
-		The longer I work and am exposed to multiple facets of the industry, the more I truly appreciate both the technical intricacies and the larger societal, political and economic importance of the energy sector in the national and global scope.",
-		"My academic background is in Computer Science and Statistics, having completed a Bachelor of Science @ UniMelb. Throughout my studies I've covered a wide of topics including modern statistical techniques, discrete maths and operations research, machine learning and AI, database systems, software development and design.",
-		"In addition, I have leveraged an industry sponsored placement at Monash Univeristy to continue my studies in the Master of Artificial Intelligence program \
-		covering a variety of deep learning applications, discrete optimisation, automated planning and reasoning as well as a research component.",
-		"Outside of work and study; I play the piano and guitar, completing my studies in music in my spare time. I work on a few projects (both coding and non-coding related) that take my interest.\
-		I enjoy reading on a range of topics, and have a growing booklist (though it seems like I buy more books than I read at any one time). I also do a bit of powerlifting.",
+		"I'm an experienced energy analyst working in the energy industry in Australia, having been involved in asset modelling and optimisation (battery, thermal and gas), mass market load forecasting, NEM price modelling, \
+		statistical model building/evaluation/productioning, retail clustering and prediction, and analysis of broader market. \
+		Throughout my time in the industry, I have come to appreciate both the technical intricacies and the greater economic and societal impact of the Australian energy industry.",
+		"My background is in Computer Science and Statistics, having completed a Bachelor of Science @ UniMelb. Throughout my studies I've covered a wide range of fields including modern statistical techniques, applied data science, discrete maths and operations research, machine learning and artificial intelligence, database systems, software development and design and of course foundational computer science algorithms.",
+		"In addition, I am continuing my studies in Artificial Intelligence at a Masters level\
+		covering a variety of deep learning applications, discrete optimisation, automated planning and reasoning, and eventually completing a research component.",
+		"Outside of work and study I play the piano and guitar, spend time on a few projects that take my interest, hoist metal objects, \
+		and slowly read my way through an ever growing booklist.",
 	],
 }
 
@@ -76,8 +76,8 @@ export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "Sarcasm Detection with NLP - Final year capstone project",
-			description: "Detect usage of sarcasm in online comments using the pre-trained language models and their embeddings in standard classification method",
+			title: "Sarcasm Detection with BERT - Final year capstone group project",
+			description: "Goal was to detect the usage of sarcasm in online comments using pre-trained language models, as well as utilising their embeddings with more traditional classification methods.",
 			icons: [
 				{
 					icon: faFilePdf,
@@ -105,7 +105,7 @@ export const projects = {
 		},
 		{
 			title: "Numpy Neural Net",
-			description: "Incomplete implementation of a neural network in sklearn style using only numpy. Done just as coding practise/applying simple ML theory.",
+			description: "An {incomplete} implementation of a neural network in sklearn style using only numpy. Done just as coding practise/applying simple ML theory.",
 			icons: [
 				{
 					icon: faGithub,
@@ -115,7 +115,7 @@ export const projects = {
 		},
 		{
 			title: "This website \u{203C}",
-			description: "I am using this site as a way to experiment with NodeJS and web design in general. The original source template for this website is linked below, as well as the repository hosting this current version.",
+			description: "I am using this site as a way to experiment with NodeJS and web design in general. The original source template for this website is linked below, as well as the repository hosting my current version.",
 			icons: [
 				{
 					icon: faLink,
@@ -132,7 +132,7 @@ export const projects = {
 }
 export const contact = {
 	title: "Contact",
-	description: "Feel free to reach out directly by email at jasonpolyy@gmail.com. I've also got LinkedIn.",
+	description: "Feel free to reach out directly below by email at jasonpolyy@gmail.com. There's also LinkedIn of course.",
 	buttons: [
 		{
 			title: "Email Me",

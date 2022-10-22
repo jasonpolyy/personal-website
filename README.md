@@ -24,7 +24,8 @@ Create a new repository with your username as `jamuupolyy.github.io`. And let th
 
 ```sh
   npm run predeploy
+  node scripts/cname.js <custom-url>
   node scripts/pages.js <your-username> master
 ```
 
-Your site will be available at `https://jamuupolyy.github.io`
+The site will be available at `https://jamuupolyy.github.io`

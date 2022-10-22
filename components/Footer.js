@@ -38,7 +38,7 @@ export const Footer = () => {
 					<Link href="https://github.com/jamuupolyy">
 						<a>Jason</a>
 					</Link>
-					{". Written in Romanian style."}
+					{". Carpathian."}
 					<Link href="https://github.com/jamuupolyy/personal-website/blob/main/LICENSE"> MIT License</Link>
 					{" "}
 				</small>
