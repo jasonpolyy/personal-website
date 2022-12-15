@@ -141,7 +141,7 @@ export const contact = {
 		},
 		{
 			title: "LinkedIn",
-			link: "",
+			link: "https://www.linkedin.com/in/jason-polyy/",
 			isPrimary: true,
 		},
 	]
@@ -170,7 +170,7 @@ export const links = {
 		},
 		{
 			title: "LinkedIn",
-			link: "",
+			link: "https://www.linkedin.com/in/jason-polyy/",
 		},
 	]
 }
