@@ -45,12 +45,12 @@ export const intro = {
 export const about = {
 	title: "About",
 	description: [
-		"I'm an experienced energy analyst working in the energy industry in Australia, having been involved in asset modelling and optimisation (battery, thermal and gas), mass market load forecasting, NEM price modelling, \
-		statistical model building/evaluation/productioning, retail clustering and prediction, and analysis of broader market. \
+		"I'm an experienced energy modelling analyst working in the energy industry in Australia, having been involved in thermal and storage asset modelling, electricity and gas demand modelling, price modelling and simulation, \
+		statistical model building/evaluation/productioning, retail customer clustering and prediction. \
 		Throughout my time in the industry, I have come to appreciate both the technical intricacies and the greater economic and societal impact of the Australian energy industry.",
-		"My background is in Computer Science and Statistics, having completed a Bachelor of Science @ UniMelb. Throughout my studies I've covered a wide range of fields including modern statistical techniques, applied data science, discrete maths and operations research, machine learning and artificial intelligence, database systems, software development and design and of course foundational computer science algorithms.",
+		"My background is in Computer Science and Statistics, having completed a Bachelor of Science @ UniMelb. Throughout my studies I've covered a wide range of fields including modern statistical techniques, applied data science, discrete maths and operations research, machine learning and artificial intelligence, database systems, software development and of course foundational computer science algorithms.",
 		"In addition, I am continuing my studies in Artificial Intelligence at a Masters level\
-		covering a variety of deep learning applications, discrete optimisation, automated planning and reasoning, and eventually completing a research component.",
+		covering a variety of deep learning applications, multi-agent systems and collective behaviour, constraint programming, discrete optimisation, multi agent path finding and reinforcement learning, and eventually completing a research component.",
 		"Outside of work and study I play the piano and guitar, spend time on a few projects that take my interest, hoist metal objects, \
 		and slowly read my way through an ever growing booklist.",
 	],
@@ -76,46 +76,65 @@ export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "Sarcasm Detection with BERT - Final year capstone group project",
-			description: "Goal was to detect the usage of sarcasm in online comments using pre-trained language models, as well as utilising their embeddings with more traditional classification methods.",
+			title: "Sarcasm Detection with BERT - Capstone group project for Data Science",
+			description: "The goal was to detect the usage of sarcasm in online comments using pre-trained language models, as well as utilising and analysing their embeddings with traditional classification methods.",
 			icons: [
 				{
 					icon: faFilePdf,
-					link: "https://github.com/jamuupolyy/SarcasmDetection/blob/master/Final_Project_Report.pdf",
+					link: "https://github.com/jasonpolyy/SarcasmDetection/blob/master/Final_Project_Report.pdf",
 				},
 				{
 					icon: faGithub,
-					link: "https://github.com/jamuupolyy/SarcasmDetection",
+					link: "https://github.com/jasonpolyy/SarcasmDetection",
 				},
 			]
 		},
 		{
 			title: "Expendibots - A game playing agent",
-			description: "Developed an autonomous game playing agent to play a made up board game called Expendibots, with functionality to play against other agents.",
+			description: "Developed an autonomous game playing agent to play a made up board game called Expendibots, with functionality to play against other agents. Demonstrates usage of the Negamax search algorithm, along with Zobrist hashing for implementing transposition tables.",
 			icons: [
 				{
 					icon: faFilePdf,
-					link: "https://github.com/jamuupolyy/Expendibots/blob/main/Expendibots%20part%20B.pdf",
+					link: "https://github.com/jasonpolyy/Expendibots/blob/main/Expendibots%20part%20B.pdf",
 				},
 				{
 					icon: faGithub,
-					link: "https://github.com/jamuupolyy/Expendibots",
+					link: "https://github.com/jasonpolyy/Expendibots",
 				},
 			]
 		},
 		{
-			title: "Numpy Neural Net",
-			description: "An {incomplete} implementation of a neural network in sklearn style using only numpy. Done just as coding practise/applying simple ML theory.",
+			title: "Pacman - Capture the Flag",
+			description: "Developed game playing agents to play a multiplayer version of Pacman called Pacman Capture the Flag by UC Berkeley. It demonstrates the usage of PDDL, heuristic search and approximate Q-learning techniques.",
 			icons: [
 				{
+					icon: faFilePdf,
+					link: "https://github.com/jasonpolyy/pacman-ctf/blob/main/report_pacman.pdf",
+				},
+				{
 					icon: faGithub,
-					link: "https://github.com/jamuupolyy/numpy-neuralnetwork",
+					link: "https://github.com/jasonpolyy/pacman-ctf",
 				},
 			]
 		},
 		{
+			title: "Flatland Challenge",
+			description: "Implemented collision free multi agent path finding algorithms in order for agents to operate in the Flatland environment, a train network simulator designed to model and address the problem of train scheduling and rescheduling.",
+			icons: [
+				{
+					icon: faFilePdf,
+					link: "https://github.com/jasonpolyy/flatland/blob/main/report_flatland.pdf",
+				},
+				{
+					icon: faGithub,
+					link: "https://github.com/jasonpolyy/flatland",
+				},
+			]
+		},
+
+		{
 			title: "This website \u{203C}",
-			description: "I am using this site as a way to experiment with NodeJS and web design in general. The original source template for this website is linked below, as well as the repository hosting my current version.",
+			description: "I am using this site as a way to experiment with web design in general. Obviously, the easiest way to get started is to fork a template and start tweaking, learning as you go. The original source template for this website is linked below, as well as the repository hosting my current version.",
 			icons: [
 				{
 					icon: faLink,
@@ -123,7 +142,7 @@ export const projects = {
 				},
 				{
 					icon: faGithub,
-					link: "https://github.com/jamuupolyy/personal-website",
+					link: "https://github.com/jasonpolyy/personal-website",
 				},
 
 			]
@@ -162,11 +181,11 @@ export const links = {
 	cards: [
 		{
 			title: "This website \u{203C}",
-			link: "https://jamuupolyy.github.io",
+			link: "https://jasonpolyy.me",
 		},
 		{
 			title: "GitHub",
-			link: "https://github.com/jamuupolyy/",
+			link: "https://github.com/jasonpolyy/",
 		},
 		{
 			title: "LinkedIn",

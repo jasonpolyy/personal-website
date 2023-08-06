@@ -16,11 +16,11 @@
 
 ### Deploy to \jamuupolyy.github.io/portfolio
 
-Simply you just need to commit and push your changes to github. And [GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions#overview) will take care of the deployment. Your site will be available at `https://jamuupolyy.github.io/portfolio`
+Simply you just need to commit and push your changes to github. And [GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions#overview) will take care of the deployment. The site will be available at `https://jasonpolyy.github.io/portfolio`
 
 ### Deploy to \jamuupolyy.github.io
 
-Create a new repository with your username as `jamuupolyy.github.io`. And let the following command do the job for you.
+Create a new repository with the username as `jamuupolyy.github.io`. And let the following command do the job for you.
 
 ```sh
   npm run predeploy
@@ -28,4 +28,4 @@ Create a new repository with your username as `jamuupolyy.github.io`. And let th
   node scripts/pages.js <your-username> master
 ```
 
-The site will be available at `https://jamuupolyy.github.io`
+The site will be available at `https://jasonpolyy.github.io`
