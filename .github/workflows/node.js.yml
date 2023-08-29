@@ -29,8 +29,8 @@ jobs:
     - run: npm install
     - run: npm run build
     - run: npm run predeploy
-    - run: node scripts/cname.js ${{CNAME_VAR}}
-    - run: node scripts/pages.js ${{USERNAME_VAR}} master
+    - run: node scripts/cname.js ${{secrets.CNAME_VAR}}
+    - run: node scripts/pages.js ${{secrets.USERNAME_VAR}} master
     # - run: npm ci
     # - run: npm run build --if-present
     # - run: npm test
