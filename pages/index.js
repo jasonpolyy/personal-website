@@ -34,18 +34,19 @@ export default function Home() {
       />
       <Photos
         title={'Some photos!'}
+        description={photo_src.description}
         photo1={photo_src.photo1}
         photo2={photo_src.photo2}
         photo3={photo_src.photo3}
         photo4={photo_src.photo4}
         photo5={photo_src.photo5}
         photo6={photo_src.photo6}
-        photo7={photo_src.photo1}
-        photo8={photo_src.photo1}
-        photo9={photo_src.photo1}
-        photo10={photo_src.photo1}
-        photo11={photo_src.photo1}
-        photo12={photo_src.photo1}
+        photo7={photo_src.photo7}
+        photo8={photo_src.photo8}
+        photo9={photo_src.photo9}
+        photo10={photo_src.photo10}
+        photo11={photo_src.photo11}
+        photo12={photo_src.photo12}
 
       />
       <Contact
