@@ -133,6 +133,18 @@ export const projects = {
 		},
 
 		{
+			title: "ImageTagger - HTTP based C game",
+			description: "Implementation of a simple game server in C, that utilises socket programming to host a simple game that is played through HTTP requests. \
+			Was able to demonstrate handling multiple TCP connections, managing HTTP requests, storing player cookies and implementing core logic with C.",
+			icons: [
+				{
+					icon: faGithub,
+					link: "https://github.com/jasonpolyy/personal-website",
+				},
+
+			]
+		},
+		{
 			title: "This website \u{203C}",
 			description: "I am using this site as a way to experiment with web design in general. Obviously, the easiest way to get started is to fork a template and start tweaking, learning as you go. The original source template for this website is linked below, as well as the repository hosting my current version.",
 			icons: [
