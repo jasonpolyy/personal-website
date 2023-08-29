@@ -1,14 +1,14 @@
 {
-  "name": "jamuupolyy",
+  "name": "jasonpolyy",
   "description": "",
-  "homepage": "jamuupolyy.github.io",
+  "homepage": "jasonpolyy.github.io",
   "version": "0.2.0",
   "license": "MIT",
   "private": true,
   "author": {
     "name": "Jason P",
-    "email": "jamuupolyy@gmail.com",
-    "url": "https://github.com/jamuupolyy"
+    "email": "jasonpolyy@gmail.com",
+    "url": "https://github.com/jasonpolyy"
   },
   "scripts": {
     "prebuild": "node scripts/favicons.js",
