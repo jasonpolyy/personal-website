@@ -1,5 +1,6 @@
 
 import profile from './profile.png';
+
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { faLink, faFilePdf } from '@fortawesome/free-solid-svg-icons';
 
@@ -42,6 +43,8 @@ export const intro = {
 	],
 }
 
+
+
 export const about = {
 	title: "About",
 	description: [
@@ -57,15 +60,15 @@ export const about = {
 }
 
 export const work = {
-	title: "What I do",
+	title: "Skills",
 	cards: [
 		{
-			title: "Coding",
+			title: "Python",
 			description: "code",
 			icons: null,
 		},
 		{
-			title: "other stuff",
+			title: " stuff",
 			description: "other",
 			icons: null,
 		}
