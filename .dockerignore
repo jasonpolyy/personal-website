@@ -1,0 +1,6 @@
+# Ignore these when copying
+node_modules
+out
+.next
+.vscode
+.github
