@@ -4,6 +4,8 @@ import profile from './profile.png';
 import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 import { faLink, faFilePdf } from '@fortawesome/free-solid-svg-icons';
 
+// import report_flatland from './files/report_flatland.pdf';
+
 export const navigation = {
 	name: "Jason P.",
 	links: [
@@ -48,14 +50,14 @@ export const intro = {
 export const about = {
 	title: "About",
 	description: [
-		"I'm an experienced energy modelling analyst working in the energy industry in Australia, having been involved in thermal and storage asset modelling, electricity and gas demand modelling, price modelling and simulation, \
+		"I'm an experienced energy modelling analyst working in the energy industry in Australia, having been involved in thermal and energy storage asset modelling, electricity and gas demand forecasting, quantitative price modelling and simulation, \
 		statistical model building/evaluation/productioning, retail customer clustering and prediction. \
 		Throughout my time in the industry, I have come to appreciate both the technical intricacies and the greater economic and societal impact of the Australian energy industry.",
-		"My background is in Computer Science and Statistics, having completed a Bachelor of Science @ UniMelb. Throughout my studies I've covered a wide range of fields including modern statistical techniques, applied data science, discrete maths and operations research, machine learning and artificial intelligence, database systems, software development and of course foundational computer science algorithms.",
-		"In addition, I am continuing my studies in Artificial Intelligence at a Masters level\
-		covering a variety of deep learning applications, multi-agent systems and collective behaviour, constraint programming, discrete optimisation, multi agent path finding and reinforcement learning, and eventually completing a research component.",
-		"Outside of work and study I play the piano and guitar, spend time on a few projects that take my interest, hoist metal objects, \
-		and slowly read my way through an ever growing booklist.",
+		"My background is in Computer Science and Statistics, having completed a Bachelor of Science @ UniMelb. Throughout my studies I've covered a wide range of topics including modern statistical techniques, applied data science, discrete maths and operations research, machine learning and artificial intelligence, database systems, software development and of course foundational computer science algorithms.",
+		"In addition, I am continuing my studies at a Masters level\
+		covering a variety of deep learning applications, multi-agent systems and collective behaviour, constraint programming, discrete optimisation, multi agent path finding and reinforcement learning.",
+		"For my Master's thesis, I am combining my industry experience and background studies to conduct interdisciplinary research in applying deep reinforcement learning for strategic energy market bidding.",
+		"Outside of work and study I play the piano and guitar, spend time on a few projects that take my interest, rip through bags of specialty coffee and hoist metal objects.",
 	],
 }
 
@@ -185,7 +187,7 @@ export const contact = {
 export const SEO = {
 	// 50 - 60 char  
 	title: "Jason P.",
-	description: "This is my cool website",
+	description: "This is my cool website (probably)",
 	image: profile.src,
 }
 

@@ -19,6 +19,9 @@ export const Photos = ({
   photo10,
   photo11,
   photo12,
+  photo13,
+  photo14,
+  photo15,
   buttons
 
 }) => {
@@ -123,6 +126,27 @@ export const Photos = ({
             <img
               className="img-fluid my-0 image" width="500"
               height="250" src={publicRuntimeConfig.basePath + photo12}
+              alt=""
+            />
+          </div>
+          <div className="col-sm-4 text-center">
+            <img
+              className="img-fluid my-0 image" width="500"
+              height="250" src={publicRuntimeConfig.basePath + photo13}
+              alt=""
+            />
+          </div>
+          <div className="col-sm-4 text-center">
+            <img
+              className="img-fluid my-0 image" width="500"
+              height="250" src={publicRuntimeConfig.basePath + photo14}
+              alt=""
+            />
+          </div>
+          <div className="col-sm-4 text-center">
+            <img
+              className="img-fluid my-0 image" width="500"
+              height="250" src={publicRuntimeConfig.basePath + photo15}
               alt=""
             />
           </div>

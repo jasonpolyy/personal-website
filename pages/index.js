@@ -47,7 +47,9 @@ export default function Home() {
         photo10={photo_src.photo10}
         photo11={photo_src.photo11}
         photo12={photo_src.photo12}
-
+        photo13={photo_src.photo13}
+        photo14={photo_src.photo14}
+        photo15={photo_src.photo15}
       />
       <Contact
         title={contact.title}

@@ -11,11 +11,13 @@ import photo9 from './photos/photo9.jpg';
 import photo10 from './photos/photo10.jpg';
 import photo11 from './photos/photo11.jpg';
 import photo12 from './photos/photo12.jpg';
-
+import photo13 from './photos/photo13.jpg';
+import photo14 from './photos/photo14.jpg';
+import photo15 from './photos/photo15.jpg';
 
 
 export const photo_src = {
-	description: "Just a handful of photos I've taken to spice up the website a little bit.",
+	description: "I try to travel around a bit. Here's some photos I've taken to spice up the website a little bit.",
 	photo1: photo1.src,
 	photo2: photo2.src,
 	photo3: photo3.src,
@@ -27,5 +29,8 @@ export const photo_src = {
 	photo9: photo9.src,
 	photo10: photo10.src,
 	photo11: photo11.src,
-	photo12: photo12.src
+	photo12: photo12.src,
+	photo13: photo13.src,
+	photo14: photo14.src,
+	photo15: photo15.src
 }

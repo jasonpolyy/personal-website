@@ -15,6 +15,3 @@ COPY . .
 
 # Build the project in the container
 RUN npm run build
-
-# run dev mode
-CMD ["npm", "run", "dev"]

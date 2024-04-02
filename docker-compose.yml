@@ -1,0 +1,7 @@
+services:
+  app:
+    image: node:16.16.0-alpine
+    command: sh -c "npm run dev"
+    ports:
+      - 3000:3000
+    working_dir: /app
