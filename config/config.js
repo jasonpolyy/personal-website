@@ -18,6 +18,10 @@ export const navigation = {
 			link: "#projects",
 		},
 		{
+			title: "Photos",
+			link: "#photos",
+		},
+		{
 			title: "Contact",
 			link: "#contact",
 		},
@@ -38,8 +42,8 @@ export const intro = {
 			isPrimary: true,
 		},
 		{
-			title: "Resume",
-			link: "https://www.overleaf.com/read/cxdnfncypqmk",
+			title: "Links",
+			link: "/links",
 			isPrimary: false,
 		},
 	],

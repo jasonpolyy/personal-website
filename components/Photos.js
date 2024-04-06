@@ -26,7 +26,7 @@ export const Photos = ({
 
 }) => {
   return (
-    <div className="bg-secondary py-5 px-2">
+    <div id="photos" className="bg-secondary py-5 px-2">
       <div className="container">
         <div className=" row align-items-center g-1">
           <div className="col-sm-0">

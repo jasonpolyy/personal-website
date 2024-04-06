@@ -34,12 +34,12 @@ export const Footer = () => {
 	return (
 		<footer className="bg-secondary text-center py-2 px-5">
 			<div className="container text-muted">
-				<small>&copy; 2022 {" "}
-					<Link href="https://github.com/jamuupolyy">
+				<small>&copy; 2024 {" "}
+					<Link href="https://github.com/jasonpolyy">
 						<a>Jason</a>
 					</Link>
 					{". Carpathian."}
-					<Link href="https://github.com/jamuupolyy/personal-website/blob/main/LICENSE"> MIT License</Link>
+					<Link href="https://github.com/jasonpolyy/personal-website/blob/main/LICENSE"> MIT License</Link>
 					{" "}
 				</small>
 			</div>
