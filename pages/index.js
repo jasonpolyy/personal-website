@@ -30,6 +30,7 @@ export default function Home() {
 
       <Projects
         title={projects.title}
+        description={projects.description}
         cards={projects.cards}
       />
       <Photos

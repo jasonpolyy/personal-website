@@ -16,6 +16,7 @@ import photo14 from './photos/photo14.jpg';
 import photo15 from './photos/photo15.jpg';
 
 
+
 export const photo_src = {
 	description: "I try to travel around a bit. Here's some photos I've taken to add some colour to the website.",
 	photo1: photo1.src,

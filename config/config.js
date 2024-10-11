@@ -54,14 +54,8 @@ export const intro = {
 export const about = {
 	title: "About",
 	description: [
-		"I'm an experienced energy modelling analyst working in the energy industry in Australia, having been involved in thermal and energy storage asset modelling, electricity and gas demand forecasting, quantitative price modelling and simulation, \
-		statistical model building/evaluation/productioning, retail customer clustering and prediction. \
-		Throughout my time in the industry, I have come to appreciate both the technical intricacies and the greater economic and societal impact of the Australian energy industry.",
-		"My background is in Computer Science and Statistics, having completed a Bachelor of Science @ UniMelb. Throughout my studies I've covered a wide range of topics including modern statistical techniques, applied data science, discrete maths and operations research, machine learning and artificial intelligence, database systems, software development and of course foundational computer science algorithms.",
-		"In addition, I am continuing my studies at a Masters level\
-		covering a variety of deep learning applications, multi-agent systems and collective behaviour, constraint programming, discrete optimisation, multi agent path finding and reinforcement learning.",
-		"For my Master's thesis, I am combining my industry experience and background studies to conduct interdisciplinary research in applying deep reinforcement learning for strategic energy market bidding.",
-		"Outside of work and study I play the piano and guitar, spend time on a few projects that take my interest, rip through bags of specialty coffee and hoist metal objects.",
+		"I'm just a dude who works in energy markets, mostly doing optimisation modelling and data science things.",
+		"Did a bunch of maths and computer science at university, now applying everything I know to build some cool stuff in the energy space!"
 	],
 }
 
@@ -83,9 +77,10 @@ export const work = {
 
 export const projects = {
 	title: "Projects",
+	description: ["Here's a selection of some projects I've completed, either as part of university or outside."],
 	cards: [
 		{
-			title: "Sarcasm Detection with BERT - Capstone group project for Data Science",
+			title: "Sarcasm Detection with BERT - Capstone project for Data Science",
 			description: "The goal was to detect the usage of sarcasm in online comments using pre-trained language models, as well as utilising and analysing their embeddings with traditional classification methods.",
 			icons: [
 				{
@@ -99,7 +94,7 @@ export const projects = {
 			]
 		},
 		{
-			title: "Expendibots - A game playing agent",
+			title: "Expendibots - A game playing agent for a made up game",
 			description: "Developed an autonomous game playing agent to play a made up board game called Expendibots, with functionality to play against other agents. Demonstrates usage of the Negamax search algorithm, along with Zobrist hashing for implementing transposition tables.",
 			icons: [
 				{
@@ -127,7 +122,7 @@ export const projects = {
 			]
 		},
 		{
-			title: "Flatland Challenge",
+			title: "Flatland Challenge - Collision free multi agent path finding for train scheduling",
 			description: "Implemented collision free multi agent path finding algorithms in order for agents to operate in the Flatland environment, a train network simulator designed to model and address the problem of train scheduling and rescheduling.",
 			icons: [
 				{
@@ -172,7 +167,7 @@ export const projects = {
 }
 export const contact = {
 	title: "Contact",
-	description: "Feel free to reach out directly below by email at jasonpolyy@gmail.com. There's also LinkedIn of course.",
+	description: "Feel free to reach out directly below by email at jasonpolyy@gmail.com, or on LinkedIn.",
 	buttons: [
 		{
 			title: "Email Me",
@@ -191,7 +186,7 @@ export const contact = {
 export const SEO = {
 	// 50 - 60 char  
 	title: "Jason P.",
-	description: "This is my cool website (probably)",
+	description: "This is my (debatably) cool website.",
 	image: profile.src,
 }
 

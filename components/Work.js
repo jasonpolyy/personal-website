@@ -21,11 +21,16 @@ export const Skills = ({ title, cards }) => {
 	);
 }
 
-export const Projects = ({ title, cards }) => {
+export const Projects = ({ title, description, cards }) => {
 	return (
 		<div id="projects" className="bg-primary py-5 px-5">
 			<div className="container">
 				<h1 className="text-light fw-bold">Projects</h1>
+				<div className="text-light px-sm-5">
+					{description.map((value, index) => (
+						<p key={index} >{value}</p>
+					))}
+				</div>
 				<div className="d-flex flex-row flex-wrap justify-content-center">
 					{cards.map((value, index) => (
 						<Card
